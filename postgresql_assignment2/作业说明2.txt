@@ -1,0 +1,31 @@
+*******提示********
+
+
+task1将data文件夹中的表导入数据库使用以下命令(默认存在D盘）
+\i 'D:\\data\\dss.ddl';
+copy customer from 'D:\\data\\customer.tbl' with delimiter as'|';
+copy part from 'D:\\data\\part.tbl' with delimiter as'|';
+copy supplier from 'D:\\data\\supplier.tbl' with delimiter as'|';
+copy partsupp from 'D:\\data\\partsupp.tbl' with delimiter as'|';
+copy nation from 'D:\\data\\nation.tbl' with delimiter as'|';
+copy lineitem from 'D:\\data\\lineitem.tbl' with delimiter as'|';
+copy region from 'D:\\data\\region.tbl' with delimiter as'|';
+copy orders from 'D:\\data\\orders.tbl' with delimiter as'|';
+
+task2
+请同学们自己学习不同连接表的方法特别是自然连接
+其他可能用到的关键字如下
+group by 
+order by
+as
+into
+not in
+distinct on
+
+task3 
+请学习教材 6.3,9.1
+你需要利用explain来查询命令的执行细节和效率
+
+
+********截止时间**********  
+2018-5-6 23:59 晚交24h以内可以获得60%的分数，延期24h以上将不能获得本次作业的成绩。
